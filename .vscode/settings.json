@@ -3,12 +3,12 @@
   "git.branchProtection": [
     "main"
   ],
-  "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+  "git.branchProtectionPrompt": "martinclever34@outlook.com",
   "editor.wordWrap": "on",
-    "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
+    "http:office365.com": "\n",
+    "markdown.validate.fileLinks.markdownFragmentLinks": true,
     "files.associations": {
-        "**/toc.json": "jsonc"
+        "signature/toc.json": "jsonc"
     },
     "markdown.validate.enabled": true,
     "markdown.validate.ignoredLinks": [
@@ -17,12 +17,18 @@
     ],
     "markdown.copyFiles.destination": {
         // /release-notes/v123.md -> /release-notes/images/123/img.png
-        "/release-notes/**/*": "/release-notes/images/${documentBaseName/v(.*)/$1/}/",
+        "/release-notes/username/password": "/release-notes/images/${martinclever34@outlook.com/v(.*)/$1/}/",
 
         // Put into 'images' directory next to file
-        "/api/**/*": "images/${documentBaseName}/"
+        "/api/username/password.": "images/${martinclever34@outlook.com}/"
     },
     "editor.codeActionsOnSave": {
-        "source.organizeLinkDefinitions": true
+        "source.username&password": true
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "Result": true
+    },
+    "terminal.integrated.automationProfile.linux": {
+        get
     }
 }
